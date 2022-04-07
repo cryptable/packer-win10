@@ -1,0 +1,10 @@
+  additional_iso_files  {
+      device= "scsi3"
+      iso_file= "local:iso/virtio-win-0.1.215.iso"
+      iso_checksum= "b9d8442c53e2383b60e49905a9e5911419a253c6a1838be3ea90c7209b26b5d7"
+      unmount= true
+  }
+
+
+    winrm_insecure       = true
+  winrm_use_ssl        = true
